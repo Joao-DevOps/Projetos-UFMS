@@ -19,13 +19,13 @@ A página representa a tela inicial de uma barbearia fictícia chamada Barbearia
 
 **Destaques do Projeto**
 
-✔ Layout moderno e minimalista
-✔ Uso eficiente do Tailwind para estilização rápida
-✔ Imagens com efeito de destaque (hover lift)
-✔ Botões com animação suave
-✔ Responsividade completa (mobile, tablet e desktop)
-✔ Tipografia profissional
-✔ Paleta escura e sofisticada inspirada em barbearias premium
+- ✔ Layout moderno e minimalista
+- ✔ Uso eficiente do Tailwind para estilização rápida
+- ✔ Imagens com efeito de destaque (hover lift)
+- ✔ Botões com animação suave
+- ✔ Responsividade completa (mobile, tablet e desktop)
+- ✔ Tipografia profissional
+- ✔ Paleta escura e sofisticada inspirada em barbearias premium
 
 **Estrutura do Projeto**
 /
@@ -62,3 +62,4 @@ Este projeto foi construído conforme solicitado no módulo, contemplando:
 - João Victor de Souza Santos
 - Discente — UFMS Digital
 - Curso: Tecnologia da Informação
+
