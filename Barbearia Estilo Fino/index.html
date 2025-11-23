@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Estilo Fino</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="bg-gray-900 text-white py-10 shadow-lg">
+    <div class="container mx-auto flex flex-col items-center">
+
+      <!-- LOGO -->
+      <img 
+        src="img/logo.png"
+        alt="Logo da Barbearia Estilo Fino"
+        class="w-28 mb-4 drop-shadow-xl transition-transform duration-300 hover:scale-105"
+      >
+
+      <h1 class="text-4xl md:text-5xl font-bold tracking-wide text-center">
+        Barbearia Estilo Fino
+      </h1>
+
+      <p class="mt-2 text-gray-300 text-lg md:text-xl">
+        Seu estilo, nossa arte
+      </p>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="container mx-auto mt-16 px-6 text-center">
+
+    <h2 class="text-3xl font-semibold mb-4">Aprimore sua aparência com elegância</h2>
+
+    <p class="mt-2 max-w-2xl mx-auto text-lg text-gray-600 leading-relaxed">
+      A Barbearia Estilo Fino oferece cortes modernos, barba, cuidados masculinos e uma experiência única.
+      Atendimento profissional e ambiente acolhedor.
+    </p>
+
+    <!-- Imagem principal -->
+    <div class="mt-12">
+      <img 
+        src="img/barbearia.png"
+        alt="Imagem da barbearia"
+        class="rounded-xl shadow-xl mx-auto w-full max-w-4xl transition-transform duration-300 hover:scale-[1.02]"
+      >
+    </div>
+
+    <!-- Botão -->
+    <a
+      href="#"
+      class="inline-block mt-10 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold py-3 px-10 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+    >
+      Agendar Horário
+    </a>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="container mx-auto mt-24 px-6">
+    <h2 class="text-3xl font-semibold text-center mb-12">Sobre a Barbearia</h2>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+
+      <!-- TEXTO -->
+      <div>
+        <p class="text-lg md:text-xl leading-relaxed text-gray-700">
+          Fundada para oferecer muito mais que simples cortes de cabelo, a Barbearia Estilo Fino nasceu com o propósito de proporcionar 
+          uma experiência verdadeiramente diferenciada. Cada detalhe do ambiente foi pensado para transmitir conforto, estilo e 
+          sofisticação, criando um espaço onde o cuidado pessoal se torna um momento de prazer.
+        </p>
+
+        <p class="text-lg md:text-xl leading-relaxed mt-6 text-gray-700">
+          Nossa equipe é formada por profissionais experientes, apaixonados pela arte da barbearia e especializados em cortes clássicos,
+          modernos e técnicas de acabamento que valorizam a personalidade de cada cliente. Aqui, cada atendimento é personalizado: ouvimos
+          suas preferências, entendemos seu estilo e oferecemos um resultado que realça sua melhor versão.
+        </p>
+      </div>
+
+      <!-- IMAGEM DO BARBEIRO -->
+      <div>
+        <img 
+          src="img/atendimento_barbearia.png"
+          alt="Barbearia Estilo Fino"
+          class="
+            rounded-xl 
+            shadow-lg 
+            w-full 
+            object-cover 
+            max-h-[420px] 
+            md:max-h-[480px] 
+            lg:max-h-[520px]
+            transition-transform duration-300 hover:scale-[1.02]
+          "
+        >
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BOTÃO FINAL -->
+  <div class="text-center mt-20 mb-20">
+    <a
+      href="#"
+      class="
+        inline-block
+        bg-green-600 text-white text-lg font-semibold 
+        py-3 px-12 rounded-full shadow-lg
+        transition-all duration-300
+        hover:bg-green-700 
+        hover:shadow-xl 
+        hover:-translate-y-1
+      "
+    >
+      Fale Conosco
+    </a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300 py-8 text-center">
+    © 2025 Barbearia Estilo Fino — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
