@@ -59,6 +59,6 @@ Este projeto foi construído conforme solicitado no módulo, contemplando:
 
 **Autor**
 
-João Victor de Souza Santos
-Discente — UFMS Digital
-Curso: Tecnologia da Informação
+- João Victor de Souza Santos
+- Discente — UFMS Digital
+- Curso: Tecnologia da Informação
